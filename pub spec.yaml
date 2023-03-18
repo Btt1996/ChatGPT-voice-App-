@@ -1,0 +1,30 @@
+name: chatgpt_voice_assistant
+description: A Flutter app that uses ChatGPT to provide voice assistance.
+version: 1.0.0
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  speech_to_text: ^3.0.0
+  flutter_tts: ^3.0.1
+  http: ^0.13.4
+  io: ^0.3.1
+  path_provider: ^2.0.9
+  dio: ^4.0.4
+  uuid: ^3.0.5
+  firebase_core: ^1.10.0
+  firebase_auth: ^3.3.3
+  cloud_firestore: ^3.1.5
+  firebase_analytics: ^8.3.2
+  geolocator: ^8.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
